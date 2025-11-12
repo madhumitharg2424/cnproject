@@ -1,0 +1,17 @@
+streamlit
+networkx
+matplotlib
+# Designing Fault-Tolerant Ethernet Networks in Factories
+
+This project simulates an industrial Ethernet network with redundancy and failure recovery using Python and Streamlit.
+
+## Features
+- Visualize real-time Ethernet topology.
+- Simulate link failures.
+- Detect connectivity status automatically.
+- Demonstrates fault tolerance with redundant paths.
+
+## Run the App
+```bash
+pip install -r requirements.txt
+streamlit run ui_app.py
